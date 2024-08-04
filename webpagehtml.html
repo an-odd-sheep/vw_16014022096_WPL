@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../EXPERIMENT 01/webpagecss.css">
+    <link rel="stylesheet" type="text/css" href="../EXPERIMENT 01/buttoncss.css">
+    <link rel="stylesheet" type="text/css" href="../EXPERIMENT 01/popupcss.css">
+    <title>Vrishank Warrier - EXP01 - WEB PAGE</title>
+    <script>
+        function showPopup() {
+            document.getElementById("popup").classList.add("active");
+        }
+        function hidePopup() {
+            document.getElementById("popup").classList.remove("active");
+        }
+    </script>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="container">
+            <h1 style="font-size: 80px; font-family: cursive; color: white; margin-bottom: 10px;">
+                V<span style="font-size: 50px">RISHANK</span> 
+                <span style="font-size: 70px;">W<span style="font-size: 50px">ARRIER</span></span>
+            </h1>
+            <h2 style="color: white; font-family: cursive; margin-top: 10px;">...</h2>
+            <hr>
+
+            <div class="boxes">
+                <!-- Box 1 -->
+                 
+                <div class="box">
+                    <div class="abtmebox">
+                        <img src="../EXPERIMENT 01/photos/photo.gif" alt="abtme" class="gif">
+                        <div class="abtmetext">
+                            <br>
+                            ABOUT ME: <br><br>
+                                <ol type = "i">
+                                        <li>TY STUDENT STUDYING EXCP AT KJSCE</li>
+                                        <li>SEMI-PROFESSIONAL FOOTBALL PLAYER</li>
+                                        <li>CLINOMANIAC</li>
+                                </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="box">
+                    <div class="buttonforgif">
+                        <img src="../EXPERIMENT 01/photos/social-page.gif" alt="abtme" class="gif">
+                        <div class="middle">
+                            <a id="open-popup" onclick="showPopup()" class="button2">CONTACT</a> 
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popup -->
+                <div id="popup" class="popup">
+                    <div class="popup-content">
+                        <a href="#" class="close" onclick="hidePopup()">&times;</a>
+
+                        <div class="boxes2">
+                            <div class="box2">
+                                
+                                    <div class="contactinfo">
+                                        <img src="../EXPERIMENT 01/photos/telephone-book.gif" alt="abtme" class="contactimg">
+                                        <h3 class="infotext"><a href="tel:+919930713906">+91 9930713906</a></h3>
+                                    </div>
+                                
+                            </div>
+
+                            <div class="box2">
+                                
+                                    <div class="contactinfo">
+                                        <img src="../EXPERIMENT 01/photos/email.gif" alt="git" class="contactimg">
+                                        <h3 class="infotext"><a href="mailto:vrishank.w@somaiya.edu" class="link">vrishank.w</a></h3>
+                                    </div>
+                                
+                            </div>
+
+                            <div class="box2">
+                                
+                                    <div class="contactinfo">
+                                        <img src="../EXPERIMENT 01/photos/git3.png" alt="git" class="contactimg">
+                                        <h3 class="infotext"><a href="https://github.com/an-odd-sheep" class="link">an-odd-sheep</a></h3>
+                                    </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 3 -->
+                <div class="box">
+                    <div class="buttonforgif">
+                        <img src="../EXPERIMENT 01/photos/document.gif" alt="abtme" class="gif">
+                        <div class="middle">
+                            <div class="textinbox">
+                                <a href="../EXPERIMENT 01/resumedemo.html" class="button">RESUME</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 4 -->
+                <div class="box">
+                    <div class="buttonforgif">
+                        <img src="../EXPERIMENT 01/photos/calendar.gif" alt="tt" class="gif">
+                        <div class="middle">
+                            <div class="textinbox">
+                                <a href="../EXPERIMENT 01/timetabledemo.html" class="button">TT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 5 -->
+                <div class="box">
+                    <div class="buttonforgif">
+                        <img src="../EXPERIMENT 01/photos/notebook.gif" alt="gfom" class="gif">
+                        <div class="middle">
+                            <div class="textinbox">
+                                <a href="../EXPERIMENT 01/formdemo.html" class="button">FORM</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="../EXPERIMENT 01/photos/Background.png" class="designimg" />
+            <img src="../EXPERIMENT 01/photos/Backgroundspaceman.png" class="spaceman" /> 
+        </div>
+    </div>
+</body>
+</html>

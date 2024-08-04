@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Crafters Recruitment Form</title>
+
+<style>
+    body {
+        background-color: rgb(118, 197, 204);
+    }
+
+    h1.custom-heading {
+        color: rgb(251, 251, 251); 
+        font-size: 3em;
+        text-align: center;
+        font-family: cursive;
+    }
+
+    .center_form{
+        display: flex;
+        justify-content: center;  
+    }
+
+    form {
+        background-color: rgb(251, 251, 251); 
+        padding: 5px; 
+        width: 600px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 6px;
+    }
+    
+    div2{
+        justify-content: center;
+        align-items: center;
+    }
+
+
+</style>
+</head>
+<body>
+    <h1 class="custom-heading">DRONE CRAFTERS</h1>
+    <h1 class="custom-heading">RECRUITMENT FORM</h1>
+    
+    <div class="center_form">
+        <form method="POST" target="_blank" >
+            <div2>
+            <p>First name:</p>
+            <input type="text" name="firstname" value="" required>
+            
+            <p>Last name:</p>
+            <input type="text" name="lastname" value="" required>
+            
+            <p>Roll No:</p>
+            <input type="text" name="rollno" value="" required>
+
+            <p>Birthdate:</p>
+            <input type="date" id="birthdate" name="birthdate" value="" required>
+            
+            <p>Email Address:</p>
+            <input type="email" id="mailid" name="mail" value="" required>
+            
+
+            <p>Year of Study:</p>
+            
+                <input type="radio" name="year" value="FY">FY
+                <input type="radio" name="year" value="SY">SY
+                <input type="radio" name="year" value="TY">TY
+                <input type="radio" name="year" value="LY">LY
+        
+            <p>Interested Area of Work:</p>
+        
+                <input type="checkbox" name="hardware" value="HARDWARE">HARDWARE
+                <input type="checkbox" name="software" value="SOFTWARE">SOFTWARE
+                <input type="checkbox" name="marketing" value="MARKETING">MARKETING
+        
+            <p>Description:</p>
+            <textarea rows="4" name="description">About yourself...</textarea>
+            
+            <p>Knowledge Test:</p>
+            <p>Your knowledge about drones:</p>
+            <textarea rows="4" name="knowledge_drones">Types of drone...</textarea>
+            
+            <p>Your knowledge about Pixhawk controller:</p>
+            <textarea rows="4" name="knowledge_pixhawk">Pixhawk Orange Cube +</textarea>
+            
+            <p>Programming Languages:</p>
+            <br>
+                    <input type="checkbox" name="programming_languages" value="c"> C Language <br>
+                    
+                        <input type="radio" name="c" value="1">1
+                        <input type="radio" name="c" value="2">2
+                        <input type="radio" name="c" value="3">3
+                        <input type="radio" name="c" value="4">4
+                        <input type="radio" name="c" value="5">5
+                <br>
+                <br>
+                    <input type="checkbox" name="programming_languages" value="cpp"> C++ Language <br>
+                    
+                        <input type="radio" name="cpp" value="1">1
+                        <input type="radio" name="cpp" value="2">2
+                        <input type="radio" name="cpp" value="3">3
+                        <input type="radio" name="cpp" value="4">4
+                        <input type="radio" name="cpp" value="5">5
+                <br>
+                <br>
+                    <input type="checkbox" name="programming_languages" value="py"> PYTHON Language <br>
+                    
+                        <input type="radio" name="py" value="1">1
+                        <input type="radio" name="py" value="2">2
+                        <input type="radio" name="py" value="3">3
+                        <input type="radio" name="py" value="4">4
+                        <input type="radio" name="py" value="5">5
+
+            <hr>
+            <p>Submit your resume:</p>
+            <input type="file" name="resume" accept="image/*"/>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            </div2>
+        </form>
+    </div>
+
+</body>
+</html>
